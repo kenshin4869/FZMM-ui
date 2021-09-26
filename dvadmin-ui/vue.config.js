@@ -6,7 +6,7 @@ function resolve(dir) {
   return path.join(__dirname, dir)
 }
 
-const name = defaultSettings.title || process.env.VUE_APP_TITLE || 'dvAdmin管理系统' // 标题
+const name = defaultSettings.title || process.env.VUE_APP_TITLE || '房长制管理平台' // 标题
 const port = process.env.port || process.env.npm_config_port || 80 // 端口
 
 // vue.config.js 配置说明
@@ -33,7 +33,7 @@ module.exports = {
     proxy: {
       // detail: https://cli.vuejs.org/config/#devserver-proxy
       [process.env.VUE_APP_BASE_API]: {
-        target: `http://localhost:8080`,
+        target: `http://localhost:8060`,
         changeOrigin: true,
         pathRewrite: {
           ['^' + process.env.VUE_APP_BASE_API]: ''

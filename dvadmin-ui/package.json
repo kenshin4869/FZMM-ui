@@ -1,7 +1,7 @@
 {
   "name": "dvadmin",
   "version": "1.1.1",
-  "description": "dvAdmin管理系统",
+  "description": "房长制管理平台",
   "author": "dvAdmin",
   "license": "MIT",
   "scripts": {
