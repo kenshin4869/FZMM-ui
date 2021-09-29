@@ -18,8 +18,8 @@ export default {
         { prop: "title", label: "隐患标题", show: true, search: true, form: true, required: true },
         { prop: "context", label: "详细内容", show: true, search: true, form: true, required: true },
         { prop: "idc", label: "机房名称", show: true, type: "model_select", select_data: { listApi: Idc.listIdc, label_name: "name" }, search: true, form: true, required: true },
-        { prop: "complete", label: "是否解决", show: true, search: true, form: true, required: true },
-        { prop: "step", label: "解决步骤", show: true, search: true, sortable: true, type: "users", form: true, required: true },
+        { prop: "complete", label: "是否解决", show: true, search: true, type: "option", option_key: "fzmm_completed", form: true, required: true },
+        { prop: "step", label: "解决步骤", show: true, search: true, sortable: true, form: true, required: true },
         { prop: "create_datetime", label: "创建时间", show: true, search: true, type: "date" },
         { prop: "creator_name", label: "创建者", show: true, search: false },
         { prop: "description", label: "描述", show: true, search: false, form: true }

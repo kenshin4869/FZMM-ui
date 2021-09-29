@@ -17,7 +17,7 @@ export default {
         { prop: "name", label: "机房名称", show: true, search: true, form: true, required: true },
         { prop: "address", label: "机房地址", show: true, search: true, form: true, required: true },
         { prop: "department", label: "所属部门", show: true, search: true, type: "depts", form: true, required: true },
-        { prop: "idctype", label: "机房类型", show: true, search: true, form: true, required: true },
+        { prop: "idctype", label: "机房类型", show: true, search: true, type: "option", option_key: "fzmm_idc_type", form: true, required: true },
         { prop: "mowner", label: "总房长", show: true, search: true, sortable: true, type: "users", form: true, required: true },
         { prop: "owner", label: "房长", show: true, search: true, sortable: true, type: "users", form: true, required: true },
         { prop: "create_datetime", label: "创建时间", show: true, search: true, type: "date" },

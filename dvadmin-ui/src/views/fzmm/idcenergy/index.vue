@@ -32,7 +32,7 @@ export default {
         { type: "delete", label: "删除", permis: ["fzmm:idcenergy:{id}:delete"], api: Fzmm.delIdcEnergy },
         { type: "export", label: "导出", permis: ["fzmm:idcenergy:export:get"], api: Fzmm.exportIdcEnergy },
         { type: "import", label: "导入", permis: ["fzmm:idcenergy:importTemplate:get", "fzmm:idcenergy:importTemplate:post"], api: Fzmm.importsIdcEnergy, template_api: Fzmm.importTemplate },
-        { type: "select", label: "详情", permis: ["fzmm:idcenergy:get"], api: Fzmm.getIdcEnergy }
+        { type: "select", label: "详情", permis: ["fzmm:idcenergy:get"], api: Fzmm.getIdcEnergy  }
       ]
     };
   },
